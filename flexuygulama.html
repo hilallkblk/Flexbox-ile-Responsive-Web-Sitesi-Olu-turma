@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            padding: 60px;
+            background-color: rgb(143, 118, 166);
+            text-align: center;
+            color: white;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: #444;
+
+        }
+
+        .navbar a {
+            padding: 14px 20px;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background-color: black;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .side {
+            flex: 30%;
+            background-color: rgb(253, 236, 236);
+            padding: 20px;
+        }
+
+        .main {
+            flex: 70%;
+            padding: 20px;
+            background-color: rgb(253, 236, 236);
+        }
+
+        .fakeimg {
+            background-color: #444;
+            padding: 20px;
+            margin: 15px;
+
+        }
+
+        .footer {
+            background-color: antiquewhite;
+            text-align: center;
+            padding: 10px;
+        }
+
+    @media screen and (max-width:700px){
+        .row, .navbar{
+            flex-direction: column;
+        }
+    }
+    </style>
+
+</head>
+
+<body>
+    <div style="background-color:rgb(163, 106, 216);padding: 5px;">
+        <h4 style="text-align: center;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, facere!</h4>
+    </div>
+    <div class="header">
+        <h1>My Website</h1>
+        <p>Lorem ipsum <b>dolor</b> sit amet.</p>
+    </div>
+    <div class="navbar">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </div>
+
+    <div class="row">
+        <div class="side">
+            <h1>About me</h1>
+            <h4>Photo of me</h4>
+            <div class="fakeimg" style="height: 200px;">image</div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, doloremque.</p>
+            <h2>More text</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="fakeimg" style="height: 60px;">İmage</div>
+            <div class="fakeimg" style="height: 60px;">İmage</div>
+            <div class="fakeimg" style="height: 60px;">İmage</div>
+
+        </div>
+        <div class="main">
+            <h2>TITLE HEADİNG</h2>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+
+            <div class="fakeimg" style="height: 200px;">image</div>
+            <p>Some text...</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur iusto laudantium harum quis
+                repellat modi minima, a libero sit dolorem dignissimos unde accusamus natus distinctio vero blanditiis?
+                Aliquid sint, facere cum pariatur sequi dignissimos quod, earum et fuga voluptates dicta natus.
+                Molestiae, at? Facilis rerum praesentium cupiditate voluptas aliquam!</p>
+            <br>
+            <h2>TITLE HEADİNG</h2>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <div class="fakeimg" style="height: 200px;">image</div>
+            <p>Some text...</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur iusto laudantium harum quis
+                repellat modi minima, a libero sit dolorem dignissimos unde accusamus natus distinctio vero blanditiis?
+                Aliquid sint, facere cum pariatur sequi dignissimos quod, earum et fuga voluptates dicta natus.
+                Molestiae, at? Facilis rerum praesentium cupiditate voluptas aliquam!</p>
+
+        </div>
+
+
+    </div>
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+</body>
+
+</html>
